@@ -8,3 +8,15 @@
 ### Skills:
 - Some basic knowledge HTML,CSS
 - Some basic knowledge JS 
+
+### Code example:
+_Example code from CodeWars:_
+```
+function multiply(a, b){
+  const c = a * b;
+  return c;
+}
+```
+### Language:
+- English level B1
+- Polish level C1
