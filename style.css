@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    margin: 1rem auto;
+}
+header {
+    
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 4px 4px 4px #aaa;
+    display: flex;
+    flex-direction: row;
+   
+    height: 25%;
+    margin: auto;
+    background-color: rgb(221, 222, 224);
+}  
+h1, h2, h3 {
+    font-family: 'Rubik Vinyl', cursive;
+}
+h1 {
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+header>aside {
+    flex: 2;
+    margin: 3px 3px 0 3px;
+    background-color: rgba(242, 242, 245, 0.921);
+}
+header>section {
+    flex: 3;
+    margin: 3px 3px 0 0;
+    background-color: rgba(242, 242, 245, 0.921);
+    text-align: center;
+}
+nav {
+    
+    height: 4rem;
+    margin: 0 auto;
+    background-color: rgb(221, 222, 224);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    
+    
+}    
+nav li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0 0 3px;
+    height: 100%;
+    background-color:  rgba(242, 242, 245, 0.921);
+}
+nav li:last-child {
+    margin: 3px 3px 0 3px; 
+   
+}
+nav a {
+    align-self: center;
+    text-decoration: none;
+}
+img {
+    display: block;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+header>aside>section {
+    height: 100%;
+}
+main {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 4px 4px 4px #aaa;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 50%;
+    margin: auto;
+    background-color: rgb(221, 222, 224);
+    text-align: center;
+}
+main>section{
+    margin: 3px;
+    background-color: rgba(242, 242, 245, 0.921);
+}
+#about p {
+    margin: 0 4rem 4rem 4rem;
+}
+main section:nth-child(odd) {
+    margin: 3px 0 0 3px;
+}
+main section:nth-child(even) {
+    margin: 3px 3px 0 3px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    
+    height: 5%;
+    margin: auto;
+    background-color: rgb(221, 222, 224);
+    justify-content: space-around;
+}
+.user {
+    text-align: center;
+    margin: auto 0;
+}
+.user>a {
+    text-decoration: none;
+    
+    text-shadow: darkgrey;
+}
+#gitLink {
+    width: 12rem;
+    height: 4rem;
+    align-self: center;
+    
+}
+footer img {
+    padding: 1rem 0;
+}
